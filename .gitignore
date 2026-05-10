@@ -1,0 +1,27 @@
+# 패키지 폴더 (절대 올리면 안 됨! 용량 폭탄)
+node_modules/
+
+# 데이터 파일 (개인 정보 가능성)
+addresses.json
+메모.js
+
+# 환경변수 (비밀번호 등)
+.env
+.env.local
+.env.production
+
+# 로그
+*.log
+npm-debug.log*
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# 에디터
+.vscode/
+.idea/
+
+# 빌드 결과
+build/
+dist/
